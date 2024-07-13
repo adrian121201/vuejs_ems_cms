@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employeelist_tables",
+  "info": {
+    "singularName": "employeelist-table",
+    "pluralName": "employeelist-tables",
+    "displayName": "employeelist-table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employee_id": {
+      "type": "string"
+    },
+    "employee_number": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "middle_name": {
+      "type": "string"
+    },
+    "Department": {
+      "type": "string"
+    },
+    "employee_type": {
+      "type": "string"
+    }
+  }
+}
